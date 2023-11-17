@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes I </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <label for="numeroAleatorio">
+        <h1>
+            Número Aleatorio:
+        </h1>
+    </label>
+    <input type="text" id="numeroAleatorio" readonly>
+
+    <button onclick="almacenarNumero()">Almacenar Número</button>
+
+    <div id="numerosAlmacenados"></div>
+    <p>Suma de Números: <span id="sumaNumeros">0</span></p>
+    <p>Menor Número: <span id="menorNumero">-</span></p>
+    <p>Mayor Número: <span id="mayorNumero">-</span></p>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
